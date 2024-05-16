@@ -1,0 +1,18 @@
+@import "colors";
+.navbar-light {
+        background-color: white !important;
+    .navbar-nav {
+        .nav-link {
+            color: $dark;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.navbar { 
+    margin: auto ;
+    width: 100% ;
+    display: flex ;
+    height: 9vh;
+    justify-content: space-between; 
+    padding: 2%;
+    background-color: white;
+    img{
+        object-fit: contain ;
+        height: 100%; 
+        min-width: 20% !important ;
+    }
+    .avatar{
+        height: 100%;
+        width: 10% !important; 
+
+    }
+}

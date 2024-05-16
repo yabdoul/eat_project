@@ -1,0 +1,26 @@
+@import 'colors';
+
+.btn{
+    padding: 12px 15px;
+    font-family: 'MontserratSemiBold',sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all 500ms;
+    color: white;
+    &:focus,&:active,&:hover{
+        box-shadow: none;
+    color: white;
+    }
+    &.btn-primary{
+        background-color: $blue;
+        border-color: $blue;
+       
+    }
+    &.btn-primary:hover{
+        background-color: $primary;
+        border-color: $primary;
+        box-shadow: 0 0 20px 8px $primary-transparent;
+        transform: scale(1.02);
+    }
+
+}
