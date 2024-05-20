@@ -1,0 +1,37 @@
+{
+  "name": "VeatOndemand",
+  "short_name": "Vod",
+  "theme_color": "#0A2175",
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"  , 
+"icons":[
+  {
+    "src":"./maskable.png" , 
+    "sizes":"192x192",
+    "type":"image/png" ,
+    "purpose":"any maskable"
+  
+  },
+{
+  "src":"./veat-logo192.png" , 
+  "sizes":"192x192",
+  "type":"image/png"
+
+},
+{
+  "src":"./veat-logo364.png" , 
+  "sizes":"364x364",
+  "type":"image/png"
+
+},
+{
+  "src":"./veat-logo512.png" , 
+  "sizes":"512x512",
+  "type":"image/png"
+
+}
+  ]
+}
