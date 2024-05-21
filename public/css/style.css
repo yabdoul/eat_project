@@ -132,7 +132,10 @@ template,
 [hidden] {
   display: none;
 }
+body{ 
+  color: white !important ; 
 
+}
 
 .detailproduct .backsliderimg{
 

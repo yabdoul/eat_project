@@ -1,0 +1,35 @@
+.page-container
+{
+    background-color: white;
+    width:100% ;
+    min-height: 86vh ;
+    padding: 15px; 
+    color:black; 
+    display: flex ;
+    // align-items: center ; 
+    justify-content: center;
+   .home-top
+        {
+            width: 90% ;
+            height: fit-content ; 
+            display: flex ;
+            justify-content: space-between;
+            // display: none;
+            p
+            {
+                font-size: 22px; 
+                font-family: 'Inter' ,sans-serif ; 
+                color: black;
+                span{ 
+                    font-size: 34px; 
+                    margin-left: 12px;
+                }
+             }
+             #bell
+             { 
+                margin-top: 1rem;
+                cursor: Pointer ;
+                }
+            
+        }
+} 
