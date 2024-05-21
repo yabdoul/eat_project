@@ -1,24 +1,24 @@
 import React from 'react';  
-import { UilEstate,UilShoppingCartAlt,UilBell,UilCommentAlt,UilCalender} from '@iconscout/react-unicons' ; 
+import { UilEstate,UilHeart,UilShoppingBasket,UilRestaurant,UilUser} from '@iconscout/react-unicons' ; 
 import './styles.scss'  ; 
 import { Link } from 'react-router-dom';
 export default function index() {
   return (
     <div className='footer-main'>
-        <Link>
+        <Link to=''>
         <UilEstate/> 
         </Link>
         <Link>
-        <UilShoppingCartAlt/> 
+        <UilHeart/>
         </Link>
         <Link>
-        <UilCommentAlt/>
+        <UilRestaurant/>
         </Link>
         <Link>
-        <UilCalender/>
+        <UilShoppingBasket/> 
         </Link>
         <Link>
-        <UilBell/> 
+          <UilUser/>
         </Link>
     </div>
   )

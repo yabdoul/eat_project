@@ -1,17 +1,23 @@
 .footer-main { 
-    height: 3rem;
-    border-radius: 14px;
+    height: 5rem;
     display: flex;
-    margin: 3%;
     gap: 53px;
     background-color: white;
     justify-content: center;
     align-items: center;
+    // border-top: solid 0.3px black ;
+    box-shadow: 10px 10px 8px 10px #888888;
     padding: 5px;
         a  {
             color: black ;
             text-decoration: none ;
 
         }
+        a:active {
+            color: orange;
+        } 
     
 }
+body{
+    overflow: hidden  !important;
+} 
