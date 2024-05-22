@@ -1,0 +1,17 @@
+.food_page{
+    display: flex ;
+    flex-direction: column ; 
+    // min-height: w ;
+    padding: 1rem;
+    gap: 2rem;
+    min-height: 86vh;
+    h1 
+    {
+    margin: unset;
+    
+    } 
+    body{
+        overflow-x: unset ;
+        overflow-y: unset;
+    }
+} 

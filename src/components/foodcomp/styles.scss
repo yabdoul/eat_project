@@ -1,0 +1,44 @@
+// food
+.food_comp
+{
+    // background-color: red;
+    // border:solid 1px black ; 
+    width:100%; 
+    height: 18rem ;
+    display: flex;
+    flex-direction: column;
+    .food_top
+    {
+        height: 87%; 
+        border-top-left-radius:15px ; 
+        border-top-right-radius:15px ; 
+        // border: solid 1px red;
+        background-image: url("../../assets/images/food.jpeg");
+        background-size: cover ; 
+        background-position-x:center;
+    }
+    .food_bottom{
+        border-bottom-left-radius:15px ; 
+        border-bottom-right-radius: 15px ; 
+        background-color: white;
+        height:13%; 
+        display:flex ; 
+        padding: 1rem; 
+        align-items: center;
+        font-family: 'Inter',sans-serif ; 
+        justify-content: space-between;
+        .rate-div{ 
+            color: black ;
+            display: flex ;
+            gap:2px; 
+            align-items: center;
+        }
+        .price-div{
+            color: black ;
+            display: flex ;
+            align-items: center ;
+            gap: 2px;
+        }
+    } 
+
+}

@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import {BrowserRouter as Router, Switch} from "react-router-dom";
 import {CustomRoute} from "../components";
-import {HomePage} from "../pages";
+import {FoodPage, HomePage, PlacePage} from "../pages";
 const MainNavigator = () => {
     const [MobileCheck,SetMobileCheck] = useState(null) ; 
     const [TabletCheck,SetTabletCheck] = useState(null) ; 
@@ -25,8 +25,9 @@ const MainNavigator = () => {
     return (
         <Router >
             <Switch>
+              <CustomRoute exacts path="/places" component={PlacePage}/>
+              <CustomRoute exacts path="/foodpage" component={FoodPage}/>
             <CustomRoute exacts path="/home" component={HomePage} />
-            
             </Switch>
         </Router>
     );
