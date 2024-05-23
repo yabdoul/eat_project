@@ -9,35 +9,83 @@
     flex-direction: column;
     .food_top
     {
-        height: 87%; 
+        height: 65%; 
         border-top-left-radius:15px ; 
         border-top-right-radius:15px ; 
+        display:flex ; 
+        flex-direction:column; 
         // border: solid 1px red;
         background-image: url("../../assets/images/food.jpeg");
         background-size: cover ; 
         background-position-x:center;
+        padding-left: 2rem;
+        padding-top:1rem;
+        span{
+            font-family:'Inter',sans-serif ; 
+            color:white ; 
+            font-weight:bold ; 
+            font-size:15px; 
+        }
     }
     .food_bottom{
         border-bottom-left-radius:15px ; 
         border-bottom-right-radius: 15px ; 
         background-color: white;
-        height:13%; 
+        height:35%; 
         display:flex ; 
         padding: 1rem; 
         align-items: center;
         font-family: 'Inter',sans-serif ; 
         justify-content: space-between;
-        .rate-div{ 
-            color: black ;
-            display: flex ;
-            gap:2px; 
-            align-items: center;
+        flex-direction: column ;
+        gap:5px; 
+        .infos-div{ 
+            display: flex ; 
+            width: 100%; 
+            justify-content: space-between;
         }
-        .price-div{
-            color: black ;
+        .loca-div{ 
+            display: flex ;
+            color: black ; 
+            align-items: center;
+                span{ 
+                    font-family: 'Inter',sans-serif;
+                    font-size: 12px  ;
+                    font-weight: 500 ;
+                    gap: 2px;
+                }
+        }
+        .infos-div{ 
+            // display: f;
             display: flex ;
             align-items: center ;
-            gap: 2px;
+            >span{ 
+                color: black ; 
+                font-size:  20px ;
+                font-weight: bold ;
+            }
+        }
+        .categ-div{
+            width: 100%; 
+            height: 1.8rem; 
+            border: solid 0.2px rgb(118, 118, 118) ;
+            border-radius: 10px ; 
+            padding: 5px ;
+            // align-items: center;
+            display: flex ;
+            justify-content: center;
+            // padding-left: 5px;
+            padding-left: 7px;
+            padding-right: 7px;
+            color: rgb(118, 118, 118);
+            span{ 
+                color:rgb(118, 118, 118) ; 
+                font-family: 'Inter',sans-serif ;
+                // font-size: 18px;
+                width: 25%;
+
+            }
+
         }
     } 
 
