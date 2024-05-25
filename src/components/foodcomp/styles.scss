@@ -9,16 +9,18 @@
     flex-direction: column;
     .food_top
     {
-        height: 65%; 
+        height: 55%; 
         border-top-left-radius:15px ; 
         border-top-right-radius:15px ; 
-        display:flex ; 
+        display:flex ;
+        align-items: flex-end;
         flex-direction:column; 
         // border: solid 1px red;
         background-image: url("../../assets/images/food.jpeg");
         background-size: cover ; 
         background-position-x:center;
         padding-left: 2rem;
+        padding-right: 1rem;
         padding-top:1rem;
         span{
             font-family:'Inter',sans-serif ; 
@@ -31,7 +33,7 @@
         border-bottom-left-radius:15px ; 
         border-bottom-right-radius: 15px ; 
         background-color: white;
-        height:35%; 
+        height:45%; 
         display:flex ; 
         padding: 1rem; 
         align-items: center;
@@ -55,6 +57,19 @@
                     gap: 2px;
                 }
         }
+        .btn-div{
+             display: flex ;
+             height: fit-content;
+             width: 100%;
+             justify-content: space-between;
+             align-items: center;
+                button:first-of-type{
+                    background-color: orange;
+                     height: 2rem ;
+                    display: flex ; 
+                    align-items: center;
+                }
+        }
         .infos-div{ 
             // display: f;
             display: flex ;
@@ -65,27 +80,14 @@
                 font-weight: bold ;
             }
         }
-        .categ-div{
-            width: 100%; 
-            height: 1.8rem; 
-            border: solid 0.2px rgb(118, 118, 118) ;
-            border-radius: 10px ; 
-            padding: 5px ;
-            // align-items: center;
-            display: flex ;
-            justify-content: center;
-            // padding-left: 5px;
-            padding-left: 7px;
-            padding-right: 7px;
-            color: rgb(118, 118, 118);
-            span{ 
-                color:rgb(118, 118, 118) ; 
-                font-family: 'Inter',sans-serif ;
-                // font-size: 18px;
-                width: 25%;
-
+        .descript-div{
+            display:flex ; 
+            width: 100%;
+            justify-content: space-between;
+            span{
+                color:rgb(121, 118, 118) ;
+                font-family:'Inter',sans-serif ; 
             }
-
         }
     } 
 
